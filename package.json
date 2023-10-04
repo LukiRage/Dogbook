@@ -5,7 +5,12 @@
     "start": "concurrently \"npm run start-server\" \"npm run start-client\" \"npm run start-socket\"",
     "start-server": "cd server && npm start",
     "start-client": "cd client && npm start",
-    "start-socket": "cd socket && npm start"
+    "start-socket": "cd socket && npm start",
+    "install-all": "npm run install-root && npm run install-server && npm run install-client && npm run install-socket",
+    "install-root": "npm install",
+    "install-server": "cd server && npm install",
+    "install-client": "cd client && npm install",
+    "install-socket": "cd socket && npm install"
   },
   "devDependencies": {
     "concurrently": "^8.2.1"
