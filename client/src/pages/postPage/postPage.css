@@ -1,0 +1,165 @@
+.postContainer {
+  display: flex;
+  width: 100%;
+}
+
+.feed {
+  flex: 6; /*5.5*/
+  padding-left: 5%;
+  padding-right: 5%;
+  padding: 20px;
+}
+
+.post {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  margin: 30px 0;
+}
+
+.postWrapper {
+  padding: 10px;
+}
+
+.postTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postTopLeft {
+  display: flex;
+  align-items: center;
+}
+.postProfileImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.postUsername {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.postDate {
+  font-size: 12px;
+}
+
+.postCenter {
+  margin: 20px 0;
+}
+
+.postImg {
+  margin-top: 20px;
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.postText {
+  display: block;
+  margin: 0 20px;
+}
+
+.postBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postBottomLeft {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.commentWrapper {
+  padding: 30px !important;
+}
+.postBottomRight {
+  margin-right: 30px;
+}
+.likeIcon {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.postLikeCounter {
+  font-size: 15px;
+}
+
+.postCommentText {
+  cursor: pointer;
+  border-bottom: 1px dashed gray;
+  font-size: 15px;
+}
+
+.postTopRight {
+  cursor: pointer;
+}
+
+.postOptionsMenu {
+  position: absolute; /* Ustalenie absolutnej pozycji */
+  background-color: white; /* Tło menu */
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.MorevertView {
+  position: relative;
+}
+.spanOption {
+  display: flex;
+  align-items: center;
+}
+
+.saveChangesButton {
+  background-color: #00a6ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  float: right;
+}
+
+.textArea {
+  border: none;
+  width: 80%;
+}
+
+.textArea:focus {
+  outline: none;
+}
+
+/*
+      tablets styles override:
+      - hide rightbar
+  */
+@media only screen and (max-width: 1100px) {
+  .rightbar {
+    display: none;
+  }
+}
+
+/*
+        small phone styles override
+        - hide sidebar   
+    */
+@media only screen and (max-width: 700px) {
+  .sidebar {
+    display: none;
+  }
+}

@@ -1,0 +1,120 @@
+.commentWrapper {
+  padding: 20px 10px;
+  width: 100%;
+}
+
+.commentHr {
+  /* margin: 20px; */
+  border: 1px solid rgb(216, 216, 216);
+  margin-bottom: 15px;
+}
+
+.commentSingle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  margin: 7px 0;
+  background-color: #f0f2f5;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.postProfileImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.commentUsername {
+  padding: 0 10px;
+}
+
+.commentHeader {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.commentDescription {
+  width: 90%;
+}
+
+/*add comment*/
+
+.commentSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.commentInput {
+  flex: 2;
+  color: black;
+  height: 30px;
+  border: 0px;
+  /* padding: 5px;
+  padding-left: 20px;
+  margin: 10px; */
+  /* 
+  margin: 0;
+  padding: 0; */
+}
+
+.commentInput:focus {
+  outline: none;
+}
+
+/* .commentSubmit {
+} */
+
+.commentIcon {
+  color: #1877f2;
+  margin-right: 5px;
+}
+
+.commentSubmission {
+  border-radius: 17px;
+  border: 1px solid gray;
+  display: flex;
+  width: 100%;
+  padding: 5px;
+  padding-left: 15px;
+  align-items: center;
+}
+
+.userImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.spacer {
+  flex: 3;
+}
+
+.commentDescriptionEdit {
+  width: 90%;
+  display: flex;
+}
+
+.commentArea {
+  border: none;
+  width: 80%;
+  font-size: medium;
+  border-radius: 10px;
+  padding-left: 7px;
+}
+.commentArea:focus {
+  outline: none;
+}
+
+.saveIcon {
+  color: #1877f2;
+  margin-left: 10px;
+}

@@ -1,0 +1,80 @@
+.activity {
+  margin: 7px;
+}
+.activityWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.grayedText {
+  color: gray;
+}
+
+/* .mealLeft,
+.mealCenter,
+.mealRight {
+  margin: 70 15px;
+} */
+
+.sectionHr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 7px;
+}
+
+.activityImg {
+  display: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.recordControls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin: 0 10px;
+}
+
+.recordControl {
+  margin: 5px;
+}
+
+.dateEdit {
+  margin: 0 10px;
+  color: gray;
+}
+
+.activityMinsSpent {
+  width: 40px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 0.95em;
+  margin: 0 10px 0 3px;
+  font-weight: 300;
+  padding: 2px 5px;
+}
+
+.acivitySelect {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 0.95em;
+  font-weight: 300;
+  padding: 2px 5px;
+}
+
+.spanNowrap {
+  white-space: nowrap;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.grayText {
+  color: gray;
+}

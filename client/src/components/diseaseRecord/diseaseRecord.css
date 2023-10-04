@@ -1,0 +1,42 @@
+tr {
+  border-bottom: 1px solid gray;
+}
+
+td {
+  padding: 10px;
+}
+
+.diseaseDayCount {
+  padding: 2px !important;
+  width: 50px !important;
+  border: 1px solid gray !important;
+  border-radius: 5px !important;
+  font-size: 0.95em !important;
+  margin: 0 15px 0 5px !important;
+  font-weight: 300 !important;
+}
+
+.diseaseSelect {
+  background-color: white !important;
+  border: 1px solid gray !important;
+  border-radius: 5px !important;
+  font-size: 0.95em !important;
+  font-weight: 300 !important;
+  padding: 2px 5px !important;
+}
+
+.grayDate {
+  color: gray;
+}
+
+.grayText {
+  color: gray;
+}
+
+.spanNowrap {
+  white-space: nowrap;
+}
+
+.diseaseDayCountAdd {
+  width: 40%;
+}

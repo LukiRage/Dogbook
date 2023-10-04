@@ -1,0 +1,18 @@
+.caretakerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.paddedClass {
+  padding-right: 10px;
+}
+
+.saveIcon {
+  color: #1877f2;
+}
+
+.saveIcon:hover {
+  cursor: pointer;
+}

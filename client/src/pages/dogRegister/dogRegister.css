@@ -1,0 +1,89 @@
+/* Style the container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5; /* Facebook-like background color */
+}
+
+/* Style the flash card */
+.flash-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+/* Style form groups */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Style labels */
+.dogRegisterLabel {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+/* Style input fields and selects */
+.inputFieldDogRegister {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.constrainedWidth {
+  width: 93%;
+}
+
+.dogRegisterSelect {
+  background-color: white;
+  font-size: medium;
+  font-weight: normal;
+}
+
+.dogRegisterSubmit {
+  background-color: #1877f2; /* Facebook-like button color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.dogRegisterSubmit:hover {
+  background-color: #1558c2; /* Slightly darker on hover */
+}
+
+.cancelBtn {
+  background-color: white;
+  border: 1px solid #1877f2;
+  color: #1877f2;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-left: auto;
+}
+
+.cancelBtn:hover {
+  background-color: #ececec;
+}
+
+.last-form-group {
+  display: flex; /* Add Flexbox */
+  justify-content: space-between; /* Spread items to the sides */
+  align-items: center; /* Vertically center items */
+}
+
+.dogRegisterTitle {
+  margin-bottom: 10px;
+  font-weight: 800;
+  color: rgb(155, 155, 155);
+}

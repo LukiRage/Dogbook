@@ -1,0 +1,88 @@
+.managerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.guestManagerTitle {
+  color: gray;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.emailInput {
+  font-size: medium;
+  padding: 2px 7px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin-bottom: 5px;
+}
+
+.addGuest {
+  border: 1px solid #1877f2;
+  padding: 4px 10px;
+  font-size: medium;
+  background-color: white;
+  color: #1877f2;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.addGuest:hover {
+  cursor: pointer;
+  background-color: #cee3ff;
+}
+
+.sendText {
+  margin-right: 10px;
+}
+
+.separator {
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.guestManagerSubtitle {
+  font-weight: 400;
+  color: gray;
+}
+
+.dogList {
+  color: gray;
+  list-style: none;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.listElement {
+  margin: 5px 0;
+}
+
+.dogName {
+  margin-right: 5px;
+}
+
+.caretakerName {
+  background-color: white;
+  color: gray;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 3px;
+  min-width: 130px;
+}

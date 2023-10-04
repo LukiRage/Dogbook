@@ -1,0 +1,111 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.flashCard {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.formClass {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.guestRegistrationTitle {
+  margin-bottom: 10px;
+  font-weight: 800;
+  color: rgb(155, 155, 155);
+}
+
+.registrationDisclaimer {
+  color: gray;
+  font-weight: 400;
+}
+
+.hrSeparator {
+  margin: 20px 0;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/*form inputs*/
+.usernameText,
+.emailText,
+.passwordText {
+  color: gray;
+  font-size: medium;
+  margin-bottom: 5px;
+}
+
+.usernameInput {
+  padding: 5px 10px !important;
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+  background-color: white;
+  font-size: medium;
+}
+
+.emailInput {
+  /*width: 100%;*/
+  padding: 5px 10px !important;
+  /*margin: 0 !important;*/
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+  background-color: white;
+  font-size: medium;
+}
+
+.passwordInput {
+  /* width: 100%; */
+  padding: 5px 10px !important;
+  /*margin: 0 !important;*/
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+  background-color: white;
+  font-size: medium;
+}
+
+/*btn styling*/
+.RegisterBTN {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  /*margin-top: 10px;*/
+  padding: 7px;
+  border-radius: 10px;
+  border: 1px solid #1877f2;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.RegisterBTN:hover {
+  cursor: pointer;
+  background-color: lightblue;
+}
+
+.registerText {
+  font-size: large;
+  color: #1877f2;
+  font-weight: 400;
+}
+
+.registerIcon {
+  color: #1877f2;
+}

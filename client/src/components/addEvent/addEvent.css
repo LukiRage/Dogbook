@@ -1,0 +1,97 @@
+.elementWrapper {
+  display: flex;
+
+  flex-direction: column;
+  margin: 20px;
+
+  border-radius: 20px;
+  border: 1px solid gray;
+  flex: 3;
+  min-width: 300px;
+  max-width: 350px;
+
+  min-height: 400px;
+}
+
+.elementWrapper .bottomSection {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.topSection {
+  display: block;
+  width: 100%;
+  height: 200px;
+  border-radius: 20px 20px 0 0;
+  background-color: rgb(219, 219, 219);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plusIcon {
+  /* font-size: 1000%; */
+  font-weight: 800;
+  color: white;
+
+  /* width: 500px; */
+}
+
+.buttondiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.addInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.addEvent {
+  border: 1px solid gray;
+  color: gray;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: larger;
+  font-weight: 400px;
+  width: 90%;
+}
+.addEvent:hover {
+  background-color: rgb(226, 226, 226);
+}
+
+.addForm {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+
+  margin: 10px;
+}
+
+.eventName,
+.eventDescription,
+.eventStart,
+.eventEnd,
+.eventStartTime,
+.eventEndTime {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 2px;
+
+  border: 1px solid gray;
+  font-size: larger;
+  width: 100%;
+  font-weight: 400;
+}
+.eventDescription {
+  resize: none;
+}

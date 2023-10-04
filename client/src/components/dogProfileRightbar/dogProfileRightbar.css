@@ -1,0 +1,40 @@
+.dog_rightbar {
+  flex: 3.5;
+}
+
+.dog_rightbarWrapper {
+  padding: 20px 20px 0 0;
+}
+
+/* .gifWrapper {
+  flex: 3;
+} */
+
+.gifClass {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.greyedTitle {
+  color: gray;
+}
+
+.ProfileInfoTitle {
+  position: relative;
+}
+.editProfileInfo {
+  position: absolute;
+  right: 30px;
+  top: 0px;
+  /* top: 300px; */
+}
+
+.inputAgeWeight {
+  font-weight: 300;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: medium;
+}

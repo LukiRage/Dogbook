@@ -1,0 +1,23 @@
+.accordion-container {
+  width: 100%;
+}
+
+.sectionButton {
+  width: 100%;
+  border: 1px solid #1877f2;
+  color: #1877f2;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  font-size: larger;
+  background-color: white;
+}
+
+.sectionDescription {
+  padding: 10px;
+  color: black;
+}
+
+.sectionContent {
+  margin: 7px;
+}

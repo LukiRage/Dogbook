@@ -1,0 +1,56 @@
+/* helpPage.css */
+.help {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f2f5;
+  height: 100vh; /* Set the height of .help to the viewport height */
+}
+
+.helpWrapper {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  width: 70%;
+  /* Additional styles for centering the accordion within .helpWrapper */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 80%;
+  overflow: auto;
+}
+
+.pageInfoTitle {
+  color: gray;
+  font-weight: bolder;
+  padding: 15px;
+}
+.pageInfo {
+  padding: 15px;
+}
+
+.homeButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: lightgray;
+  border: none;
+  border-radius: 20px;
+  color: gray;
+}
+.homeButton:hover {
+  background-color: lightgray;
+  color: white;
+}
+
+.homeButtonText {
+  font-size: larger;
+  margin-left: 10px;
+  margin-right: 10px;
+}

@@ -1,0 +1,305 @@
+.topbarContainer {
+  height: 50px;
+  width: 100%;
+  background-color: #1877f2;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.topbarLeft {
+  flex: 3;
+}
+
+.logo {
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.topbarCenter {
+  flex: 5;
+}
+
+.searchbar {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.searchIcon {
+  font-size: 20px !important;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.searchInput {
+  border: none;
+  width: 70%;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+.topbarRight {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.topbarLink {
+  margin-right: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.topbarIcons {
+  display: flex;
+  position: relative; /*test*/
+}
+
+.topbarIconItem {
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
+}
+.topbarIconItem:hover {
+  background-color: #2797ff;
+  border-radius: 5px;
+}
+
+.topbarIconBadge {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+
+  /* display: none; */
+  /*^wyświetlanie ilości powiadomień*/
+}
+
+.topbarImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  right: 10px;
+}
+
+.searchResultBox {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 20px;
+  position: absolute;
+  flex: 5;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  width: 40%;
+  top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: block;
+}
+
+.resultImg {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid gray;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+
+.resultList {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.resultElement:hover {
+  background-color: #68b3fa;
+  color: white;
+}
+
+.resultElement {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.LogoutIcon {
+  cursor: pointer;
+  padding: 5px 5px 0 0;
+  margin-left: 15px;
+}
+
+.topbarAccount {
+  display: flex;
+}
+
+/*close button in notifications*/
+.closeText {
+  margin-right: 20px;
+}
+
+.bottomControls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.markReadAllBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+}
+.markReadAllBtn:hover {
+  color: black;
+  /* background-color: gray; */
+  border-radius: 10px;
+  cursor: pointer;
+}
+.closeBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+}
+.closeBtn:hover {
+  color: black;
+  /* background-color: gray; */
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/*styles for guest pop-up*/
+.guestTray {
+  position: absolute;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  top: 40px;
+  left: 0px;
+  border: 1px solid gray;
+  padding: 20px;
+
+  min-width: 200px;
+  min-height: 200px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.guestTitle {
+  color: gray;
+}
+
+.guestEmptyDesc {
+  color: gray;
+  margin-top: 10px;
+}
+
+/*styles for notification pop-up*/
+.notificationTray {
+  position: absolute;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  top: 40px;
+  left: 0px;
+  border: 1px solid gray;
+  padding: 20px;
+
+  min-width: 200px;
+  min-height: 200px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.notificationTitle {
+  color: gray;
+}
+
+.notificationEmptyDesc {
+  color: gray;
+  margin-top: 10px;
+}
+
+.notificationLink {
+  text-decoration: none;
+  color: black;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+}
+.notificationLink:hover {
+  background-color: lightgray;
+}
+
+/*
+    tablets styles override:
+    - hide elements: Homepage,Timeline,
+*/
+@media only screen and (max-width: 1100px) {
+  .topbarLink {
+    display: none;
+  }
+}
+
+/*
+    small phone styles override
+    - hide topbar-links and topbar-icons   
+*/
+@media only screen and (max-width: 800px) {
+  .topbarLinks {
+    display: none;
+  }
+
+  .topbarIcons {
+    display: none;
+  }
+}
+
+/*
+    small phone styles override
+    -  hide searchbar,
+*/
+@media only screen and (max-width: 500px) {
+  .searchbar {
+    display: none;
+  }
+}

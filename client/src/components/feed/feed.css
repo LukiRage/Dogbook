@@ -1,0 +1,9 @@
+.feed {
+  flex: 6; /*5.5*/
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.feedWrapper {
+  padding: 20px;
+}

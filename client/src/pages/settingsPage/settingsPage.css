@@ -1,0 +1,99 @@
+.settingsContainer {
+  display: flex;
+  width: 100%;
+}
+
+.settingsWrapper {
+  flex: 8;
+}
+.settingsPane {
+  /* border: 1px solid black; */
+
+  /* height: 100%; */
+  height: calc(100vh - 100px);
+  width: 98%;
+
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+}
+
+.settingsTitle {
+  color: gray;
+  font-weight: bolder;
+  margin: 20px;
+  padding: 20px;
+}
+
+.deleteGuestSection,
+.deleteDogSection,
+.geleteUserSection {
+  margin: 30px;
+  padding: 30px;
+
+  width: 50%;
+}
+.guestTitle,
+.dogTitle,
+.userTitle {
+  color: gray;
+}
+
+.spanText {
+  color: gray;
+}
+
+.guestList {
+  margin: 20px;
+}
+
+.deleteBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+  border: 2px solid white;
+  color: white;
+  border-radius: 5px;
+}
+
+.deleteBtn:hover {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+}
+.userDelete {
+  background-color: white;
+  color: red;
+  padding: 5px;
+  font-size: large;
+  border: 2px solid red;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.userDelete:hover {
+  background-color: red;
+  color: white;
+  border: 2px solid white;
+}
+/*
+      tablets styles override:
+      - hide rightbar
+  */
+@media only screen and (max-width: 1100px) {
+  .rightbar {
+    display: none;
+  }
+}
+
+/*
+        small phone styles override
+        - hide sidebar   
+    */
+@media only screen and (max-width: 700px) {
+  .sidebar {
+    display: none;
+  }
+}
