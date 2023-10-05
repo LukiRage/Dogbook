@@ -2,11 +2,7 @@
 
 Dogbook is Facebook like social media for dog owners
 
-# To do:
-
-- dodać Miłosza i Łukasza do zespołu na repo
-
-## Zarządzanie projektem:
+# Zarządzanie projektem:
 
 # Inicjowanie projektu:
 
