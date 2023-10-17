@@ -52,7 +52,11 @@ router.post("/login", async (req, res) => {
     user.isOnline = true;
     await user.save();
 
-    res.status(200).json(user);
+    //send object without password
+    const userWithoutPassword = { ...user.toObject() };
+    delete userWithoutPassword.password;
+
+    res.status(200).json(userWithoutPassword); //user
   } catch (err) {
     res.status(500).json(err);
   }
@@ -95,7 +99,11 @@ router.post("/login/guest", async (req, res) => {
     }
 
     // Valid credentials
-    res.status(200).json(guest);
+    //send object without password
+    const guestWithoutPassword = { ...guest.toObject() };
+    delete guestWithoutPassword.password;
+
+    res.status(200).json(guestWithoutPassword); //guest
   } catch (err) {
     res.status(500).json(err);
   }
