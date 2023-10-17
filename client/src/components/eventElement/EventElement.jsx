@@ -82,16 +82,20 @@ export default function EventElement({ object }) {
                     object.members.includes(friend.username)
                   ) ? (
                     <>
-                      <p>Interested friends:</p>
+                      <p>Top interested friends:</p>
                       <ul>
                         {isInterested && (
                           <li key={user.username}>{user.username}</li>
                         )}
-                        {friendList.map((friend) =>
-                          object.members.includes(friend.username) ? (
-                            <li key={friend.username}>{friend.username}</li>
-                          ) : null
-                        )}
+                        {
+                          friendList
+                            .map((friend) =>
+                              object.members.includes(friend.username) ? (
+                                <li key={friend.username}>{friend.username}</li>
+                              ) : null
+                            )
+                            .slice(0, 3) //limit the number of friends to three
+                        }
                       </ul>
                     </>
                   ) : null}
