@@ -51,4 +51,32 @@ router.put("/addmember/:userId/:eventId", async (req, res) => {
   }
 });
 
+// Remove a user from event members
+router.put("/removemember/:userId/:eventId", async (req, res) => {
+  try {
+    const event = await Event.findById(req.params.eventId);
+    if (!event) {
+      return res.status(404).json({ error: "Event not found" });
+    }
+
+    //check if the "event.members" contains req.body.username
+
+    if (event.members.includes(req.body.username)) {
+      //update event.memebers by deleting element that is req.body.username
+      //save event
+
+      event.members = event.members.filter(
+        (member) => member !== req.body.username
+      );
+      event.save();
+
+      res.status(200).json(event);
+    } else {
+      res.status(400).json({ error: "User is not a member of this event" });
+    }
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
 module.exports = router;

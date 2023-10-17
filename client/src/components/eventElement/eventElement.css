@@ -56,6 +56,20 @@
   padding: 5px;
 }
 
+.interestedButtonActive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 90%;
+  margin-bottom: 10px;
+  background-color: #1877f2;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
 .interestedText {
   font-size: large;
   font-weight: 300;
@@ -70,4 +84,9 @@
 .interestedButton:hover {
   cursor: pointer;
   background-color: #e1ecfc;
+}
+
+.interestedButtonActive:hover {
+  cursor: pointer;
+  background-color: #60a5ff;
 }

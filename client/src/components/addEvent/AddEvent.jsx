@@ -23,25 +23,25 @@ export default function AddEvent() {
 
   const [imageName, setImageName] = useState("");
 
-  useEffect(() => {
-    console.log("Event name:" + eventName);
-  }, [eventName]);
+  // useEffect(() => {
+  //   console.log("Event name:" + eventName);
+  // }, [eventName]);
 
-  useEffect(() => {
-    console.log("Event description:" + eventDescription);
-  }, [eventDescription]);
+  // useEffect(() => {
+  //   console.log("Event description:" + eventDescription);
+  // }, [eventDescription]);
 
-  useEffect(() => {
-    console.log("Event start:" + eventStart);
-  }, [eventStart]);
+  // useEffect(() => {
+  //   console.log("Event start:" + eventStart);
+  // }, [eventStart]);
 
-  useEffect(() => {
-    console.log("Event start time:" + eventStartTime);
-  }, [eventStartTime]);
+  // useEffect(() => {
+  //   console.log("Event start time:" + eventStartTime);
+  // }, [eventStartTime]);
 
-  useEffect(() => {
-    console.log("Event end:" + eventEnd);
-  }, [eventEnd]);
+  // useEffect(() => {
+  //   console.log("Event end:" + eventEnd);
+  // }, [eventEnd]);
 
   const havdleEventImageSend = async (e) => {
     const file = e.target.files[0];
