@@ -43,24 +43,24 @@ Other helpful commands:
 For the purpose of looking up the client desing in the followinh section will be some of the screenshots with explanation:
 1. Dog profile page - this page display dog profile alongside the basic information about the dog like age, weight, gender and breed (as well as breed disadvantage and advantages. The dog profile image as well as cover image are customizable. In the main section there is the dog main tracker (that can track diseases/meals/activity/behaviour in the one component).
 
-<img src="https://github.com/RobertNeat/Dogbook/blob/main/screenshots/1_dog_profile.png"  height="200"/>
+<img src="https://github.com/RobertNeat/Dogbook/blob/main/screenshots/1_dog_profile.png"  height="300"/>
   
 2. Home feed - this page display the user home page with the friend post feed that user can interact with. The list of the posts can have interaction like/unlike using like or heart icon, as well as adding comment (or deleting own comment, or even editing own comment). The left bar displays the list of the locations that logged in user can be navigated to, as well as list of friends and under them list of owned dogs. Right sidebar displays the list of the logged in and active friends. On the topbar there are guest center, message center as well notifiation center.
 
-<img src="https://github.com/RobertNeat/Dogbook/blob/main/screenshots/2_home_feed.png"  height="200"/>
+<img src="https://github.com/RobertNeat/Dogbook/blob/main/screenshots/2_home_feed.png"  height="300"/>
   
 3. User profile -this page is the logged in user personal page that can be edited (user can set the profile image as well as the background page. As well the posts can be created in the user feed under user profile logo.
 
-<img src="https://github.com/RobertNeat/Dogbook/blob/main/screenshots/3_user_profile.png"  height="200"/>
+<img src="https://github.com/RobertNeat/Dogbook/blob/main/screenshots/3_user_profile.png"  height="300"/>
 
 4. Guest view - this page lets registered temporary caretaker to check data about dog as well add note about one of the four dog life elements (diseases/meals/activity/behaviour).
 
-<img src="https://github.com/RobertNeat/Dogbook/blob/main/screenshots/4_guest_view.png"  height="200"/>
+<img src="https://github.com/RobertNeat/Dogbook/blob/main/screenshots/4_guest_view.png"  height="300"/>
 
 5. Setting page -
 
 
-<img src="https://github.com/RobertNeat/Dogbook/blob/main/screenshots/5_settings_page.png"  height="200"/>
+<img src="https://github.com/RobertNeat/Dogbook/blob/main/screenshots/5_settings_page.png"  height="300"/>
 
 6. Event page -
 
