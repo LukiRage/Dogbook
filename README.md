@@ -57,20 +57,20 @@ For the purpose of looking up the client desing in the followinh section will be
 
 <img src="https://github.com/RobertNeat/Dogbook/blob/main/screenshots/4_guest_view.png"  height="300"/>
 
-5. Setting page -
-
+5. Setting page - this page allow authenticated users to manage guest accounts lined to their dog profiles, or even delete dog profile after they passed away. In the danger section there is also option to delete user account if the wish to opt out from platform.
 
 <img src="https://github.com/RobertNeat/Dogbook/blob/main/screenshots/5_settings_page.png"  height="300"/>
 
-6. Event page -
+6. Event page - allows authenticated users to create new activities/events for their dog community. Every user can show interest in specific event (or opt out from event). The created event have its cover image, event name, description, start and end date (after the end date the event is no longer valid so it's deleted from the database).
 
+<img src="https://github.com/RobertNeat/Dogbook/blob/main/screenshots/6_event_page.png"  height="300"/>
 
+7. Messenger page - it's the special place for exchanging text messages alongside emojis between befriended users. On the left bar the currently logged in user can select conversation with friend (otr start new conversation). Every new message triggers the notification if the recipient is present (online).
 
-7. Messenger page -
+<img src="https://github.com/RobertNeat/Dogbook/blob/main/screenshots/7_messenger_page.png"  height="300"/>
 
+8. Dog meals info - provides the list of the safe meal options alongside the nutrition information and how to prepare them. As well as dangerous meals that dog owners have to avoid giving it to their puppies.
 
+<img src="https://github.com/RobertNeat/Dogbook/blob/main/screenshots/8_dog_meals_info.png"  height="300"/>
 
-8. Dog meals info - 
-
-
-Rest of the more important images can be found in the "screenshots" folder. 
+Rest of the more important images can be found in the "screenshots" folder or running the app. 
