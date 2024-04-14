@@ -74,3 +74,11 @@ For the purpose of looking up the client desing in the followinh section will be
 <img src="https://github.com/RobertNeat/Dogbook/blob/main/screenshots/8_dog_meals_info.png"  height="300"/>
 
 Rest of the more important images can be found in the "screenshots" folder or running the app. 
+
+
+### The developers that work on this project:
+
+- @RobertNeat
+- @LukiRage
+- @Kander678
+
